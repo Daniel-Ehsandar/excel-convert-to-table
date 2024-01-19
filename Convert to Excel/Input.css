@@ -1,0 +1,209 @@
+.Input_1 {
+  font-family: vazirmatn;
+  position: relative;
+  width: 90%;
+  margin: auto;
+  text-align: right;
+  border-radius: 16px;
+  background-color: #ffffff;
+  border: 1px solid #f5f5f5;
+}
+
+.P_1 {
+  font-size: 15px;
+  font-weight: 200;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: #2f4858;
+}
+
+.P_2 {
+  margin: 16px 16px 8px 16px;
+  font-weight: 900;
+}
+
+.P_3 {
+  margin: 0px 16px;
+  font-weight: 300;
+}
+
+.Input_2 {
+  border-radius: 8px;
+  border: 1px solid #c0c8cd;
+  margin: 16px auto;
+  padding: 8px 16px;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: right;
+}
+
+.TD-Table {
+  font-family: Vazirmatn;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: right;
+}
+
+.btn_Get_Info_1 {
+  height: 40px;
+  padding: 8px 24px;
+  border-radius: 8px;
+  border-style: none;
+  text-align: left;
+  float: left;
+  background-color: #45ada7;
+  color: #ffffff;
+  font-family: vazirmatn;
+  text-decoration: none;
+  margin: 8px auto;
+}
+
+
+.SE-1 {
+  border: 1px solid #697b87;
+  height: 40px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  font-family: Vazirmatn;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center right;
+}
+
+.SE-1:hover,
+.SE-1:visited,
+.SE-1:active,
+.SE-1:focus {
+  box-shadow: 0px 0px 4px 0px #c1e3e2;
+  border: 1px solid #45ada7;
+}
+
+.success-message {
+  width: 30%;
+  border-radius: 16px;
+  border: 1px solid #97d1ce;
+  color: #45ada7;
+  background-color: #F6FBFB;
+  font-family: Vazirmatn;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: right;
+  padding: 6px;
+  position: fixed;
+  bottom: 20px;
+  left: 70%;
+  transform: translateX(-50%);
+  z-index: 9999;
+}
+ 
+
+.error-message {
+  width: 30%;
+  border-radius: 16px;
+  border: 1px solid #F09480;
+  color:  #E12A02;
+  background-color: #FCEAE6;
+  font-family: Vazirmatn;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: right;
+  padding: 6px;
+  position: fixed;
+  bottom: 20px;
+  left: 70%;
+  transform: translateX(-50%);
+  z-index: 9999;
+}
+
+.Input_3 {
+  margin: 8px auto;
+  padding: 8px 0px;
+  width: 90%;
+}
+
+.Input_3-2 {
+  margin: 8px auto;
+  padding: 8px 0px;
+  width: 100%;
+}
+
+.select_1 {
+  width: 100%;
+  font-size: 13px;
+  font-family: vazirmatn;
+  font-weight: 100;
+  border: 1px solid #697b87;
+  height: 40px;
+  border-radius: 8px;
+  background-color: #ffffff;
+}
+.ROW_1 {
+  margin: 8px 4px;
+}
+
+.Area {
+  margin: auto 16px;
+}
+.unselected-option {
+  background-color: red;
+}
+
+
+.img_icon-1 {
+  width: 24px;
+  height: 24px;
+  margin: auto auto 0px 16px;
+}
+
+.text-span{
+  padding-right: 24px;
+  margin-right: 16px;
+}
+/*.notificationOverlayStyle  {
+  position: fixed;
+  top: '0';
+  left: '0';
+  width: '100%';
+  height: '100%';
+  background-color: white; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: "999"; 
+}**/
+
+@font-face {
+  font-family: vazirmatn;
+  font-style: normal;
+  font-weight: 200;
+  src: url("./fonts/Vazirmatn-FD-Medium.woff2") format("woff2"),
+    url("./fonts/Vazirmatn-FD-Medium.ttf") format("truetype");
+}
+
+/*
+style={{"margin: 16px 16px 8px 16px; font-weight: 900"}}
+style={{"margin: 0px 16px"}}
+style={{"margin: auto 16px"}}
+
+
+style={{""}}
+*/
+
+/* Hide the default dropdown arrow */
+select {
+}
+
+/* Create a custom arrow using the ::after pseudo-element */
+
+/* Apply the rotation when the select is clicked or focused */
+
+
